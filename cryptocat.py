@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # This file is part of pyCryptoCat.
 #
 # Copyright(c) 2010-2011 Simone Margaritelli
