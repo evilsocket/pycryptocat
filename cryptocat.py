@@ -20,7 +20,7 @@ class ThreadedHTTPD(SocketServer.ThreadingMixIn,BaseHTTPServer.HTTPServer):
 class HTTPDAsyncStarter(threading.Thread):
     address = '127.0.0.1'
     port = 8080
-    path = 'files'
+    path = os.path.dirname(os.path.realpath(__file__)) + '/files'
     
     def __init__(self):
         threading.Thread.__init__(self)
