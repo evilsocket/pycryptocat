@@ -1,21 +1,8 @@
 $(window).ready(function() {
 
-/* resize content with window */
-$(window).resize( function() {
-  $("#bubble").css("height", $(window).height() + "px");
-});
-
-$('#pyinfo').click( function()
-{
-  alert( 'pyCryptoCat v1.0.0\nCopyleft by evilsocket@gmail.com' );
-
-  return false;
-});
-
 /* Version number */
 Cryptocat.version = '2.0.41';
-
-$('#version').text('pyCryptoCat 1.0.0');
+$('#version').text(Cryptocat.version);
 
 /* Configuration */
 var defaultDomain = 'crypto.cat'; // Domain name to connect to for XMPP.
@@ -1143,11 +1130,24 @@ $('#loginForm').submit(function() {
 			$('#loginForm').submit();
 			$('#loginSubmit').attr('readonly', 'readonly');
 		});
-
+		if (Cryptocat.language['language'] === 'en') {
+			$('#progressInfo').append(
+				'<br />Here is an interesting fact while you wait:'
+				+ '<br /><div id="interestingFact">'
+				+ CatFacts.getFact() + '</div>'
+			);
+		}
 		$('#progressInfo').append(
 			'<div id="progressBar"><div id="fill"></div></div>'
 		);
-
+		var catFactInterval = window.setInterval(function() {
+			$('#interestingFact').fadeOut(function() {
+				$(this).text(CatFacts.getFact()).fadeIn();
+			});
+			if (myKey) {
+				clearInterval(catFactInterval);
+			}
+		}, 10000);
 		$('#fill').animate({'width': '100%', 'opacity': '1'}, 10000, 'linear');
 	}
 	// If everything is okay, then register a randomly generated throwaway XMPP ID and log in.
@@ -1268,8 +1268,14 @@ function logout() {
 				$('#loginInfo').animate({'color': '#999'}, 'fast');
 				$('#loginInfo').text(Cryptocat.language['loginMessage']['thankYouUsing']);
 			}
-
-			$('#bubble').animate({}, function() {
+			$('#bubble').css({
+				'border-radius': '8px 0 8px 8px',
+				'margin': '0 auto'
+			});
+			$('#bubble').animate({
+				'margin-top': '5%',
+				'height': '310px'
+			}).animate({'width': '680px'}, function() {
 				$('#buddyList div').each(function() {
 					if ($(this).attr('id') !== 'buddy-main-Conversation') {
 						$(this).remove();

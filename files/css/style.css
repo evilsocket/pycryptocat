@@ -43,29 +43,33 @@ img.logo {
 	font-family: 'Monda', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 16px;
 }
-
-#about {
-  display: inline-block;
-  float: right;
-  margin: 6px 5px 5px 10px;
-	color: #7BBFEC;
-	font-family: 'Monda', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	font-size: 16px;
-}
-
 #bubble {
-  width: 100%;
-  height: 100%;
-  min-width: 800px;
-	min-height: 600px;
-	background: black;
+	position: relative;
+	z-index: 1;
+	width: 680px;
+	height: 310px;
+	margin: 5% auto 0 auto;
+	background: #080812;
+	border-radius: 8px 0 8px 8px;
+	box-shadow: 4px 4px #72B1DB;
 }
-
+#bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 305px;
+	top: 310px;
+	border: 30px solid;
+	border-color: #080812 transparent transparent #080812;
+	z-index: 0;
+}
 #bubble #head {
 	background: #131316;
 	width: 100%;
 	padding: 2px 0 5px 0;
 	height: 32px;
+	border-radius: 15px 0 0 0;
 }
 #bubble #loginLinks a {
 	margin-left: 10px;

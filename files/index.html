@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="UTF-8" />
-	<title>pyCryptoCat</title>
+	<title>Cryptocat</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="css/jquery.qtip.css" type="text/css" />
 	<link rel="icon" type="image/gif" href="img/favicon.gif" />
@@ -25,6 +25,7 @@
 	<script type="application/javascript" src="js/salsa20.js"></script>
 	<script type="application/javascript" src="js/cryptocatRandom.js"></script>
 	<script type="application/javascript" src="js/multiparty.js"></script>
+	<script type="application/javascript" src="js/catfacts.js"></script>
 	<script type="application/javascript" src="js/language.js"></script>
 	<script type="application/javascript" src="js/bigint.js"></script>
 	<script type="application/javascript" src="js/eventemitter.js"></script>
@@ -37,17 +38,18 @@
 		<div id="dialogBoxClose">x</div>
 		<div id="dialogBoxContent"></div>
 	</div>
-
 	<div id="bubble">
 		<div id="head" dir="ltr">
 			<img src="img/cryptocat.png" alt="Cryptocat" class="logo" />
-			<span id="logoText" dir="ltr">pyCryptoCat - A Python CryptoCat client.</span>
-      <span id="about"><a id="pyinfo" href="#">about</a></span>
+			<span id="logoText" dir="ltr">Cryptocat</span>
 			<img class="button" id="logout" src="img/logout.png" alt="" />
 			<img class="button" id="audio" src="img/noSound.png" alt="" />
 			<img class="button" id="notifications" src="img/noNotifications.png" alt="" />
 			<img class="button" id="myInfo" src="img/key.png" alt="" />
 			<img class="button" id="status" src="img/available.png" alt="" />
+			<div id="loginLinks">
+				<a href="https://blog.crypto.cat" target="_blank" id="blog"></a>
+			</div>
 		</div>
 		<div id="info">
 			<h1 id="introHeader"></h1>
