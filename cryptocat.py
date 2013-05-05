@@ -14,13 +14,20 @@ import SocketServer
 import BaseHTTPServer
 import SimpleHTTPServer
 
+# Multithreaded web server
 class ThreadedHTTPD(SocketServer.ThreadingMixIn,BaseHTTPServer.HTTPServer):
     pass
 
+# Override class to disable logging
+class RequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
+    def log_message( self, format, *args ):
+      pass
+
+# Start HTTPD asynchronously
 class HTTPDAsyncStarter(threading.Thread):
     address = '127.0.0.1'
-    port = 8080
-    path = os.path.dirname(os.path.realpath(__file__)) + '/files'
+    port    = 8080
+    path    = os.path.dirname(os.path.realpath(__file__)) + '/files'
     
     def __init__(self):
         threading.Thread.__init__(self)
@@ -28,7 +35,7 @@ class HTTPDAsyncStarter(threading.Thread):
     
     def run(self):
         os.chdir( self.path )
-        httpd = ThreadedHTTPD(( self.address, self.port ), SimpleHTTPServer.SimpleHTTPRequestHandler)
+        httpd = ThreadedHTTPD(( self.address, self.port ), RequestHandler)
         try:
             while 1:
                 httpd.handle_request()
