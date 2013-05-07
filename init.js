@@ -8,7 +8,7 @@ $(window).resize( function() {
 $('#blog').click( function()
 {
 
-	dialogBox( '<center>pyCryptoCat v' + pyVersion + '<br/>Copyleft by evilsocket@gmail.com<br><br>CryptoCat by the http://crypto.cat team.', 1);
+	dialogBox( '<center>pyCryptoCat v' + pyVersion + '<br/>Copyleft by evilsocket@gmail.com<br>http://www.evilsocket.net/<br>http://www.backbox.org<br><br>CryptoCat by the http://crypto.cat team.', 1);
 
   return false;
 });
