@@ -9,46 +9,24 @@
 import gtk, webkit
 import sys
 import os
-import threading
-import SocketServer
-import BaseHTTPServer
-import SimpleHTTPServer
-
-# Multithreaded web server
-class ThreadedHTTPD(SocketServer.ThreadingMixIn,BaseHTTPServer.HTTPServer):
-    pass
-
-# Override class to disable logging
-class RequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
-    def log_message( self, format, *args ):
-      pass
-
-# Start HTTPD asynchronously
-class HTTPDAsyncStarter(threading.Thread):
-    address = '127.0.0.1'
-    port    = 8080
-    path    = os.path.dirname(os.path.realpath(__file__)) + '/files'
-    
-    def __init__(self):
-        threading.Thread.__init__(self)
-        self.daemon = True
-    
-    def run(self):
-        os.chdir( self.path )
-        httpd = ThreadedHTTPD(( self.address, self.port ), RequestHandler)
-        try:
-            while 1:
-                httpd.handle_request()
-        except KeyboardInterrupt:
-            print "Finished"
 
 class CryptoCat:
     version = '1.0.0'
+    starter = 'files/index.html'
 
     def __init__(self):
-        self.httpd   = HTTPDAsyncStarter()
-        self.window  = gtk.Window()
-        self.webview = webkit.WebView()
+        self.window    = gtk.Window()
+        self.webview   = webkit.WebView()
+        self.cryptocat = 'file://' +  os.path.dirname(os.path.realpath(__file__)) + '/' + self.starter
+
+        settings = self.webview.get_settings()
+        # Make webview load file:// urls without security exceptions
+        settings.set_property('enable-universal-access-from-file-uris', True)
+        settings.set_property('enable-file-access-from-file-uris', True)
+        # Enable audio notifications
+        settings.set_property('enable-webaudio', True)
+        # Set default encoding
+        settings.set_property('default-encoding', 'utf-8')
 
         with open('init.js', 'r') as initjs:
           self.initjs = initjs.read()
@@ -69,12 +47,9 @@ class CryptoCat:
       self._js( self.initjs )
 
     def run(self):
-        self.httpd.start()
-        
         self.window.set_position(gtk.WIN_POS_CENTER)
         self.window.show_all()
-        self.webview.open( "http://%s:%d" % ( self.httpd.address, self.httpd.port ) )
-    
+        self.webview.open( self.cryptocat )
         gtk.main()
 
 cc = CryptoCat()
