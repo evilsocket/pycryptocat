@@ -17,7 +17,8 @@ class CryptoCat:
     def __init__(self):
         self.window    = gtk.Window()
         self.webview   = webkit.WebView()
-        self.cryptocat = 'file://' +  os.path.dirname(os.path.realpath(__file__)) + '/' + self.starter
+        self.path      = os.path.dirname(os.path.realpath(__file__)) 
+        self.cryptocat = 'file://' +  self.path + '/' + self.starter
 
         settings = self.webview.get_settings()
         # Make webview load file:// urls without security exceptions
@@ -28,7 +29,7 @@ class CryptoCat:
         # Set default encoding
         settings.set_property('default-encoding', 'utf-8')
 
-        with open('init.js', 'r') as initjs:
+        with open( self.path + '/init.js', 'r') as initjs:
           self.initjs = initjs.read()
 
         # get dom ready event
