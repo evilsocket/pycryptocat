@@ -48,6 +48,7 @@ class CryptoCat:
       self._js( self.initjs )
 
     def run(self):
+        self.webview.set_size_request(800, 600)
         self.window.set_position(gtk.WIN_POS_CENTER)
         self.window.show_all()
         self.webview.open( self.cryptocat )
