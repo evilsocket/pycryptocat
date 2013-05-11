@@ -1,4 +1,4 @@
-pyVersion = '1.0.1';
+pyVersion = '1.0.2';
 
 /* resize content with window */
 $(window).resize( function() {
@@ -59,7 +59,7 @@ function dialogBox(data, closeable, onAppear, onClose) {
 		}
 		$('#dialogBox').animate({'top': '+=10px'}, 'fast')
 			.animate({'top': '-450px'}, 'fast', function() {
-				if (onClose) {
+                if (onClose) {
 					onClose();
 				}
 			});

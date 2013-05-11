@@ -13,7 +13,7 @@ import gtk
 import webkit
 
 __name__ = 'pyCryptoCat'
-__version__ = '1.0.1'
+__version__ = '1.0.2'
 
 
 class CryptoCat:
