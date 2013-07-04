@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Privates Chatten für alle.
+Willkommen bei Cryptocat. Hier sind einige hilfreiche Tipps: <ul> <li> Cryptocat ist kein Wundermittel. Sie sollten nie Ihr Leben einem Stück Software anvertrauen. </li> <li class="key"> Cryptocat ist kein Schutz vor nicht vertrauenswürdigen Menschen oder key-loggern. Ihre Verbindung wir nicht anonymisiert.</li></ul>
+Blog
+Benutzerdefinierter Server
+Zurücksetzen
+Name der Konversation
+Nickname
+verbinden
+Gebe einen Namen für den Chatroom ein und teile ihn mit anderen, um dich mit ihnen zu unterhalten. Wenn du dich mit neuen Leuten treffen willst, gebe <strong>lobby</strong> als Chatnamen ein.
+Gebe den Namen des Chatsrooms an, dem du beitreten willst.
+Bitte gib einen Namen für den Chatroom ein.
+Der Name des Chatrooms muss alphanumerisch sein.
+Gebe bitte einen Nicknamen ein.
+Der Nickname muss alphanumerisch sein.
+Dieser Nickname wird bereits verwendet.
+Authentifizierungsfehler.
+Verbindung fehlgeschlagen.
+Danke, dass Du Cryptocat verwendest.
+Registriere...
+Verbinde...
+Verbunden.
+Tippe bitte, einige Sekunden lang, so zufällig wie möglich auf der Tastatur herum.
+Generiere Verschlüsselungscodes...
+Gruppenchat. Klicke auf einen Teilnehmer, um eine private Unterhaltung zu beginnen.
+OTR Fingerabdruck (für private Unterhaltungen):
+Fingerabdruck des Gruppenchats:
+Meine Verschlüsselungscodes zurücksetzen
+Das Zurücksetzen deiner Verschlüsselungscodes wird die Verbindung beenden. Deine Fingerabdrücke werden sich dadurch auch ändern.
+Fortsetzen
+Status: Verfügbar
+Status: Abwesend
+Meine Infos
+Desktop-Benachrichtigungen: AN
+Desktop-Benachrichtigungen: AUS
+Audio-Benachrichtigungen: AN
+Audio-Benachrichtigungen: AUS
+Meinen Nicknamen merken
+Meinen Nicknamen nicht merken
+Abmelden
+Info anzeigen
+Verschlüsselte Datei senden
+Bild anzeigen
+Datei herunterladen
+Chat
+Es werden nur ZIP-Dateien und Bilder akzeptiert. Maximale Dateigröße: (SIZE) MB.
+Fehler: Bitte stelle sicher, dass deine Datei eine ZIP-Datei oder ein Bild ist. 
+Fehler: Datei darf nicht größer als (SIZE) MB sein.
+Video-Chat starten
+Video-Chat beenden
+(NICKNAME) möchte gerne einen Video-Chat mit dir beginnen. 
+Abbrechen
+Sperren
+Entsperren

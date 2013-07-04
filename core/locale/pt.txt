@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Conversas Privadas para Todos.
+Bem-vindo ao Cryptocat. Algumas dicas úteis: <ul><li> Cryptocat não é mágica. Além disso, você nunca deve confiar completamente em nenhum software.</li><li class="key">O Cryptocat não pode proteger você de pessoas não confiáveis ou rastreadores de teclado e não torna a sua conexão anônima. </li></ul>
+Blog
+Servidor personalizado
+Redefinir
+nome da conversa
+apelido
+conectar
+Introduza um nome para a sua conversa e compartilhe-o com as pessoas com quem gostaria de falar, ou entre na <strong>sala pública</strong> para conhecer novas pessoas!
+Digite o nome da conversa para participar.
+Por favor digite um nome de conversa.
+O nome da conversa deve ser alfanumérica.
+Por favor digite um apelido.
+O apelido deve ser alfanumérico.
+Apelido em uso.
+Falha na autenticação.
+Conexão falhou.
+Obrigado por utilizar o Cryptocat.
+Registrando...
+Conectando...
+Conectado.
+Por favor digite em seu teclado o mais aleatoriamente possível por alguns segundos.
+Gerando chaves de criptografia...
+Conversa em grupo. Clique em um usuário para conversa privada.
+Impressão digital OTR (para conversas privadas):
+Impressão digital da conversa em grupo:
+Redefinir minhas chaves de criptografia
+Redefinir suas chaves de criptografia irá desconectá-lo. Suas impressões digitais também mudarão.
+Continuar
+Estado: Disponível
+Estado: Ausente
+Minhas Informações
+Notificações no Desktop Ligadas
+Notificações no Desktop Desligadas
+Notificações por Áudio Ligadas
+Notificações por Áudio Desligadas
+Lembrar meu apelido
+Não lembrar o meu apelido
+Sair
+Exibir Informações
+Enviar arquivo criptografado
+visualizar imagem
+baixar arquivo
+Conversa
+Apenas arquivos ZIP e imagens são aceitas. Tamanho máximo de arquivo: (SIZE) MB.
+Erro: Por favor tenha certeza de que seu arquivo é um arquivo ZIP ou uma imagem.
+Erro: O arquivo não pode ser maior do que (SIZE) MB.
+Iniciar vídeo-conferência
+Encerrar vídeo-conferência
+(NICKNAME) gostaria de iniciar uma vídeo-conferência com você.
+Cancelar
+Bloquear
+Desbloquear

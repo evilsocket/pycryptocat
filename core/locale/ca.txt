@@ -1,0 +1,53 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Converses privades per a tothom.
+Benvingut a Cryptocat. Aquests són alguns consells útils: <ul> <li> Cryptocat no és una solució màgica. Vostè hauria never trust qualsevol peça de programari amb el seu vida. </li> <li class="key"> Cryptocat no pot protegir-se contra les persones dignes de confiança, loggers clau i no anonymize la connexió. </li> </ul>
+Bloc
+Servidor personalitzat
+Reinicia
+nom de la conversa
+nom d'usuari
+Connecta
+Escriu un nom per a la teva conversa i comparteix-la amb gent amb qui t'agradaria parlar.
+Introdueix el nom de la conversa per a unir-te.
+Si us plau, introdueix el nom de la conversa.
+El nom de la conversa ha de ser alfanumèric.
+Si us plau, introdueix un nom d'usuari
+El nom d'usuari ha de ser alfanumèric.
+El nom d'usuari no està disponible.
+Error d'identificació.
+Error de connexió.
+Gràcies per utilitzar Cryptocat.
+Registrant...
+Connectant...
+Connectat.
+Si us plau, escriu aleatòriament amb el teclat durant uns segons.
+Generant claus de xifrat...
+Conversa de grup. Clica a un usuari per a iniciar una conversa privada.
+Empremta OTR (per a converses privades):
+Empremta de conversa de grup:
+Reinicia les meves claus de xifrat
+Reiniciar les teves claus de xifrat et desconnectarà. La teva emprempta digital també canviarà.
+Continua
+Estat: Disponible
+Estat: Absent
+La meva informació
+Notificacions d'escriptori activades
+Notificacions d'escriptori desactivades
+Notificacions d'àudio activades
+Notificacions d'àudio desactivades
+Recorda el meu nom d'usuari
+No recordis el meu nom d'usuari
+Desconnectar-se
+Mostra informació
+Envia fitxer xifrat
+Veure imatge
+Desar fitxer
+Conversa
+Només s'accepten arxius ZIP i imatges. Mida màxima d'arxiu: (SIZE) MB.
+Error: Assegura't que l'arxiu sigui un ZIP o una imatge.
+Error: L'arxiu no pot superar (SIZE) MB.
+Iniciar xat amb video
+Finalitzar xat amb video
+(NICKNAME) vol iniciar un xat amb video amb tu.
+Cancel·lar

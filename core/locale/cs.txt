@@ -1,0 +1,53 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Soukromý chat pro každého.
+Vítejte v Cryptocat. Tady je několik užitečných tipů: <ul><li>Cryptocat není žádný zázrak. Nikdy byste neměli svěřit váš život do rukou jakéhokoliv programu.</li><li class="key">Cryptocat vás nemůže ochránit před nedůvěryhodnými lidmi, keyloggery a neanonymizuje vaše připojené.</li></ul>
+Blog
+Vlastní server
+obnovit
+jméno chatu
+přezdívka
+připojit
+Zadejte jméno vašeho chatu. Pak toto jméno dejte lidem, s kterými chcete chatovat.
+Zadejte jméno chatu ke kterému se chcete připojit.
+Zadejte jméno chatu.
+Jméno chatu musí být alfanumerické.
+Zadejte přezdívku.
+Přezdívka musí být alfanumerická.
+Přezdívka již není k dispozici.
+Ověření selhalo.
+Připojení selhalo.
+Děkujeme za použití Cryptocatu.
+Registruji ...
+Připojuji ...
+Jste připojeni.
+Ťukejte na klávesnici mnoho náhodných znaků po dobu několika sekund.
+Generuji šifrovací klíče ...
+Skupinový chat. Klikněte na uživatele pro soukromý chat.
+OTR fingerprint (pro soukromý chat):
+Fingerprint skupinového chatu:
+obnovit moje šifrovací klíče
+Jakmile obnovíte šifrovací klíče, budete odpojeni. Váš fingerprint se také změní.
+pokračovat
+Status: k dispozici
+Status: pryč
+Moje info
+Desktopová oznámení zapnuta
+Desktopová oznámení vypnuta
+Zvuková oznámení zapnuta
+Zvuková oznámení vypnuta
+Pamatovat si mou přezdívku
+nepamatovat přezdívku
+odhlásit
+ukázat data
+poslat šifrovaný soubor
+zobrazit obrázek
+stáhnout soubor
+Chat
+Zdrojový řetězec Přeložit jenom ZIP soubory a obrázky jsou akceptovány. Maximální velikost souboru: (SIZE) MB.
+Chyba: Prosím, ujistěte se, že Vaš soubor je ZIP soubor nebo obrázek.
+Chyba:. Soubor nemůže být větší než (SIZE) MB.
+Spustit video chat
+Ukončení video chatu
+(Přezdívka) chcete spustit video chat s vámi.
+Zrušit

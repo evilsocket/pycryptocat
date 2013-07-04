@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Conversaciones privadas para todos.
+Bienvenido a Cryptocat. Aqui tiene algunos consejos: <ul><li>Cryptocat no es un remedio magico. Usted nunca debería poner su vida entre las manos de algún software.</li><li class="key">Cryptocat no le puede protejer contra personnas indignas de confianza, key loggers, y no anonimiza su conexión.</li></ul>
+Blog
+Servidor personalizado
+Reiniciar
+nombre de la conversación
+nombre de usuario
+conectar
+Introduce un nombre para tu conversación y compártelo con la gente con la que quieres hablar, o únete al <strong>lobby</strong> para conocer gente nueva.
+Introduce el nombre de una conversación para unirse.
+Por favor, introduce un nombre de conversación.
+El nombre de la conversación tiene que ser alfanumérico.
+Por favor, introduce un nombre de usuario.
+El nombre de usuario tiene que ser alfanumérico.
+El nombre de usuario esta en uso.
+Error de autenticación.
+Conexión Fallida
+Gracias por usar Cryptocat
+Registrando...
+Conectando...
+Conectado.
+Por favor, escribe aleatoriamente en tu teclado durante unos segundos.
+Generando claves de encriptación...
+Conversación de grupo. Pincha en un usuario para una conversación privada.
+Huella OTR (para conversaciones privadas):
+Huella para conversaciones en grupo:
+Cambiar mis claves de cifrado
+Restablecimiento de las claves de encriptación se desconecta. Sus huellas digitales también cambiará.
+continuar
+Estado: Disponible
+Estado: Ausente
+Mi información
+Notificaciones de Escritorio activadas
+Notificaciones de Escritorio desactivadas
+Notificaciones de audio activadas
+Notificaciones de audio desactivadas
+Recordar mi apodo
+"No recordar mi nombre de usuario"
+Desconectarse
+Mostrar información
+Enviar archivo encriptado
+ver imagen
+descargar archivo
+Conversación
+Solo se aceptan archivos ZIP e imágenes. Tamaño máximo: (SIZE) MB.
+Error: Por favor asegura que tu archivo es un archivo comprimido, ZIP, o una imagen.
+Error: El archivo no puede ser más grande que (SIZE) MB.
+Comenzar chat de video
+Terminar chat de video
+(NICKNAME) quisiera comenzar un chat de video contigo.
+Cancelar
+Bloquear
+Desbloquear
