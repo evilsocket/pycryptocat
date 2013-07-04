@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Prywatne rozmowy dla każdego.
+Witamy w Cryptocat. Oto kilka pomocnych wskazówek:  <ul><li>Cryptocat nie jest receptą na wszystko. Nigdy nie ufaj żadnemu oprogramowaniu, jeśli stawką jest twoje życie.</li><li class="key">Cryptocat nie da rady ochronić cię przed ludźmi niegodnymi zaufania, oprogramowaniem szpiegującym i nie ukrywa twoich połączeń.</li></ul>
+Blog
+Custom server
+Resetuj
+Nazwa rozmowy
+Pseudonim
+Połącz
+Wpisz tytuł konwersacji i udostępnij ją osobom, z którymi zamierzasz rozmawiać.
+Wpisz nazwę rozmowy, do której chcesz dołączyć.
+Proszę wpisać nazwę rozmowy.
+Nazwa rozmowy może być tylko alfanumeryczna.
+Proszę o podanie pseudonimu.
+Pseudonim może być tylko alfanumeryczny.
+Pseudonim jest w użyciu.
+Błąd uwierzytelniania.
+Połączenie nieudane.
+Dzięki, że  skorzystałeś z Cryptocata.
+Rejestruję...
+Łączę...
+Połączony
+Proszę losowo pisać na klawiaturze przez kilka sekund.
+Generuję klucze szyfrujące...
+Rozmowa grupowa. Kliknij na użytkownika, aby porozmawiać prywatnie.
+Klucz identyfikacyjny OTR (dla prywatnych rozmów):
+Klucz identyfikacyjny rozmowy grupowej:
+Skasuj moje klucze szyfrujące
+Skasowanie kluczy szyfrujących spowoduje utratę połączenia i zmianę kluczy identyfikacyjnych.
+Dalej
+Status: Dostępny
+Status: Nieobecny
+O mnie
+Powiadomienia ekranowe włączone
+Powiadomienia ekranowe wyłączone
+Powiadomienia dźwiękowe włączone
+Powiadomienia dźwiękowe wyłączone
+Pamiętaj mój pseudonim
+Nie zapamiętuj mojego pseudonimu
+Wyloguj
+Wyświetl informacje
+Wyślij zaszyfrowany plik
+Pokaż obrazek
+Pobierz plik
+Rozmowa
+Dozwolone są tylko pliki ZIP i obrazy. Maksymalny rozmiar pliku: (SIZE) MB.
+Błąd: Upewnij się, że plik jest plikiem ZIP lub plikiem graficznym.
+Błąd: Plik nie może być większy niż (SIZE) MB.
+Rozpocznij czat wideo
+Zakończ czat wideo
+Użytkownik (NICKNAME) chciałby rozpocząć z tobą czat wideo.
+Anuluj
+Zablokuj
+Odblokuj

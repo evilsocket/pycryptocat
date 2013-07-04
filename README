@@ -1,9 +1,0 @@
-pyCryptoCat 1.0.0 - A CryptoCat standalone client.
-Copyleft Simone Margaritelli <evilsocket@gmail.com>
-http://www.evilsocket.net
-http://www.emoticode.net
-Based on http://crypto.cat/
-
-pyCryptoCat is a CryptoCat standalone chat client written in Python, using python-webkit package and a builtin webserver to serve
-cryptocat js and html files.
-

@@ -1,0 +1,76 @@
+/*!
+ * qTip2 - Pretty powerful tooltips - v2.0.1-28-
+ * http://qtip2.com
+ *
+ * Copyright (c) 2013 Craig Michael Thompson
+ * Released under the MIT, GPL licenses
+ * http://jquery.org/license
+ *
+ * Date: Fri Mar 1 2013 10:50 GMT+0000
+ * Plugins: svg ajax tips modal viewport imagemap ie6
+ * Styles: basic css3
+ */
+
+/* Core qTip styles */
+.qtip{
+	position: absolute;
+	left: -28000px;
+	top: -28000px;
+	display: none;
+	max-width: 280px;
+	min-width: 50px;
+	font-size: 10.5px;
+	line-height: 12px;
+	direction: ltr;
+	box-shadow: none;
+	padding: 0;
+}
+
+.qtip-content{
+	position: relative;
+	padding: 4px 8px;
+	overflow: hidden;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+.qtip-titlebar + .qtip-content{ border-top-width: 0 !important; }
+
+.qtip-titlebar .qtip-close{
+	right: 4px; top: 50%;
+	margin-top: -9px;
+}
+
+* html .qtip-titlebar .qtip-close{ top: 16px; } /* IE fix */
+
+/* Default tooltip style */
+.qtip-default{
+	background: #76BDE5;
+	color: #FFF;
+	font-size: 11px;
+	line-height: 16px;
+	border-radius: 4px 0 4px 4px;
+	max-width: 225px;
+}
+
+/* Opera bug #357 - Incorrect tip position
+https://github.com/Craga89/qTip2/issues/367 */
+x:-o-prefocus, .qtip .qtip-tip{
+	visibility: hidden;
+}
+
+.qtip .qtip-tip,
+.qtip .qtip-tip .qtip-vml,
+.qtip .qtip-tip canvas{
+	position: absolute;
+	color: #123456;
+	background: transparent;
+}
+
+.qtip .qtip-tip canvas{ top: 0; left: 0; }
+
+.qtip .qtip-tip .qtip-vml{
+	behavior: url(#default#VML);
+	display: inline-block;
+	visibility: visible;
+}
