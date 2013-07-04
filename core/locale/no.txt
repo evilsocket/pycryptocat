@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Private Samtaler For Alle. 
+Velkommen til Cryptocat. Her er noen greie huskeregler: <ul><li>Cryptocat er ikke en universalløsning. Du bør aldri legge livet ditt i hendene på noen programvare.</li><li class="key"> Cryptocat kan ikke beskytte deg mot upålitelige personer, keyloggere og anonymiserer ikke forbindelsen din. </li></ul>
+Blogg
+Egendefinert server
+Tilbakestill
+samtalenavn
+kallenavn
+koble til
+Gi samtalen din et navn og del navnet med de du ønsker å snakke med, eller gå til <strong>lobby</strong> for å treffe nye folk!
+Oppgi navnet på samtalen du ønsker å delta i.
+Vennligst angi et samtalenavn.
+Navnet på samtalen må være alfanumerisk.
+Vennligst angi et kallenavn.
+Kallenavnet må være alfanumerisk.
+Kallenavnet er i bruk.
+Autentisering feilet.
+Tilkobling feilet.
+Takk for at du bruker Cryptocat.
+Registrerer...
+Kobler til...
+Tilkoblet.
+Vennligst utfør tastetrykk på tastaturet så tilfeldig som mulig i noen sekunder.
+Genererer krypteringsnøkler...
+Gruppesamtale. Klikk på en bruker for å snakke privat.
+OTR fingeravtrykk (for private samtaler):
+Gruppesamtale fingeravtrykk:
+Tilbakestill krypteringsnøklene mine
+Tilbakestilling av krypteringsnøklene dine vil koble deg fra. Fingeravtrykkene dine vil også forandres.
+Fortsett
+Status: Tilgjengelig
+Status: Borte
+Min info
+Skrivebordsvarsler På 
+Skrivebordsvarsler Av
+Lydvarslinger På
+Lydvarslinger Av
+Husk kallenavnet mitt
+Ikke husk kallenavnet mitt
+Logg ut
+Vis info
+Send kryptert fil
+vis bilde
+last ned fil
+Samtale
+Kun ZIP-filer og bilder aksepteres. Maksimum filstørrelse: (SIZE) MB.
+Feil: Sikker på at filen din er en ZIP-fil eller et bilde?
+Feil: Filen kan ikke være større enn (SIZE) MB.
+Start videosamtale
+Avslutt videosamtale
+(NICKNAME) vil starte en videosamtale med deg.
+Avbryt
+Blokker
+Fjern blokkering

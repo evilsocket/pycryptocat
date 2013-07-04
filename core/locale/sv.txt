@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Privata konversationer för alla.
+Välkommen till Cryptocat. Här följer några användbara tips: <ul><li>Cryptocat är ingen universallösning. Du bör inte anförtro ditt liv åt någon mjukvara.</li><li class="key">Cryptocat kan inte skydda dig mot otillförlitliga människor eller key loggers och anonymiserar inte din anslutning.</li></ul>
+Blogg
+Egen server
+Återställ
+Konversationsnamn
+namn
+ansluta
+Ange ett namn för konversationen och delge det till dem du önskar prata med.
+Skriv in namnet på det samtal du vill delta i.
+Vänligen skriv in ett konversationsnamn. 
+Konversationsnamnet måste vara alfanumeriskt.
+Vänligen skriv in ett smeknamn.
+Smeknamnet måste vara alfanumeriskt.
+Smeknamnet användas redan.
+Autentiseringsfel.
+Anslutning misslyckades.
+Tack för att du använder Cryptocat!
+Registrerar...
+Ansluter...
+Uppkopplad
+Vänligen skriv in slumpmässiga tecken på ditt tangentbord under några sekunder.
+Genererar krypteringsnycklar...
+Gruppkonversation. Klicka på en användare för privat chatt.
+OTR fingeravtryck (för privata konversationer):
+Gruppkonversationens fingeravtryck:
+Återställ mina krypteringsnycklar
+Om du återställer dina krypteringsnycklar kommer du att kopplas ned. Ditt fingeravtryck kommer också att ändras.
+Fortsätt
+Status: Tillgänglig
+Status: Frånvarande
+Min information
+Skrivbordsnotifieringar På
+Skrivbordsnotifieringar Av
+Ljudnotifikationer På
+Ljudnotifikationer Av
+Kom ihåg mitt smeknamn
+Kom inte ihåg mitt smeknamn
+Logga ut
+Visa information
+Skicka krypterad fil
+visa bild
+ladda ner fil
+Konversation
+Endast zip-filer och bilder accepteras. Maximal filstorlek: (SIZE) MB.
+Fel: Kontrollera att din fil är en zip-fil eller en bild.
+Fel: Filen kan inte vara större än (SIZE) MB.
+Starta videochat
+Avsluta videochat
+(NICKNAME) vill starta en videochat med dig.
+Avbryt
+Blockera
+Avblockera

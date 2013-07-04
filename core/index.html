@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Cryptocat</title>
+	<link rel="stylesheet" media="screen" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.qtip.css" type="text/css" />
+	<link rel="icon" type="image/gif" href="img/favicon.gif" />
+	<script type="application/javascript" src="js/lib/jquery/jquery.js"></script>
+	<script type="application/javascript" src="js/lib/jquery/jquery.color.js"></script>
+	<script type="application/javascript" src="js/lib/jquery/jquery.qtip.js"></script>
+	<script type="application/javascript" src="js/lib/mustache.js"></script>
+	<script type="application/javascript" src="js/lib/strophe/strophe.js"></script>
+	<script type="application/javascript" src="js/lib/strophe/strophe.register.js"></script>
+	<script type="application/javascript" src="js/lib/strophe/strophe.ibb.js"></script>
+	<script type="application/javascript" src="js/lib/strophe/strophe.si-filetransfer.js"></script>
+	<script type="application/javascript" src="js/lib/strophe/strophe.muc.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/core.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/enc-base64.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/cipher-core.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/x64-core.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/aes.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/sha1.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/sha256.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/sha512.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/hmac.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/pad-nopadding.js"></script>
+	<script type="application/javascript" src="js/lib/crypto-js/mode-ctr.js"></script>
+	<script type="application/javascript" src="js/lib/salsa20.js"></script>
+	<script type="application/javascript" src="js/etc/catFacts.js"></script>
+	<script type="application/javascript" src="js/cryptocat.js"></script>
+	<script type="application/javascript" src="js/etc/templates.js"></script>
+	<script type="application/javascript" src="js/etc/cryptocatRandom.js"></script>
+	<script type="application/javascript" src="js/lib/multiParty.js"></script>
+	<script type="application/javascript" src="js/etc/cryptocatLocalization.js"></script>
+	<script type="application/javascript" src="js/lib/bigint.js"></script>
+	<script type="application/javascript" src="js/lib/eventemitter.js"></script>
+	<script type="application/javascript" src="js/lib/otr.js"></script>
+	<script type="application/javascript" src="js/lib/elliptic.js"></script>
+	<script type="application/javascript" src="js/etc/fileTransfer.js"></script>
+</head>
+<body>
+	<div id="dialogBox">
+		<div id="dialogBoxClose">x</div>
+		<div id="dialogBoxContent"></div>
+	</div>
+	<div id="bubble">
+		<div id="header">
+			<img src="img/cryptocat.png" alt="Cryptocat" class="logo" />
+			<span id="logoText" dir="ltr">cryptocat</span>
+			<span id="conversationInfo">
+				<span class="conversationName"></span>
+				<span id="groupConversation"></span>
+			</span>
+			<div id="optionButtons" dir="ltr">
+				<img class="button" id="status" src="img/available.png" alt="" />
+				<img class="button" id="myInfo" src="img/key.png" alt="" />
+				<img class="button" id="notifications" src="img/noNotifications.png" alt="" />
+				<img class="button" id="audio" src="img/noSound.png" alt="" />
+				<img class="button" id="logout" src="img/logout.png" alt="" />
+			</div>
+		</div>
+		<form id="loginForm" dir="ltr">
+			<input type="text" id="conversationName" maxlength="20" autocomplete="off" dir="ltr" />
+			<input type="text" id="nickname" maxlength="16" autocomplete="off" dir="ltr" />
+			<input type="submit" id="loginSubmit" dir="ltr" />
+		</form>
+		<div id="loginInfo"></div>
+		<div id="info">
+			<h1 id="introHeader"></h1>
+			<p id="introParagraph"></p>
+		</div>
+		<div id="footer">
+			<div id="version"></div>
+			<div id="loginOptions">
+				<a href="#" id="languageSelect"></a>
+				<a href="#" id="customServer"></a>
+			</div>
+			<ul id="languages">
+				<li id="en">English</li>
+				<li id="ca">Català</li>
+				<li id="ar">عربي</li>
+				<li id="zh-cn">简体</li>
+				<li id="zh-hk">繁體</li>
+				<li id="ur">اُردُو</li>
+				<li id="bo">བོད་སྐད།</li>
+				<li id="bg">Български</li>
+				<li id="et">Eesty</li>
+				<li id="cs">Česky</li>
+				<li id="da">Dansk</li>
+				<li id="de">Deutsch</li>
+				<li id="es">Español</li>
+				<li id="eu">Euskara</li>
+				<li id="el">Ελληνικά</li>
+				<li id="fa">فارسی</li>
+				<li id="fr">Français</li>
+				<li id="ja">日本語</li>
+				<li id="he">עִבְרִית</li>
+				<li id="in">বাংলা</li>
+				<li id="it">Italiano</li>
+				<li id="km">ភាសាខ្មែរ</li>
+				<li id="ko">한국어</li>
+				<li id="lv">Latviešu</li>
+				<li id="lol">Lolcat</li>
+				<li id="nl">Nederlands</li>
+				<li id="no">Norsk</li>
+				<li id="pl">Polski</li>
+				<li id="pt">Português</li>
+				<li id="ru">Русский</li>
+				<li id="sv">Svenska</li>
+				<li id="tr">Türkçe</li>
+				<li id="vi">Tiếng Việt</li>
+				<li id="ug">Uighur</li>
+			</ul>
+			<div id="customServerDialog">
+				<input type="text" class="customServer" id="customDomain" title="Domain Name"></input>
+				<input type="text" class="customServer" id="customConferenceServer" title="XMPP Conference Server"></input>
+				<input type="text" class="customServer" id="customBOSH" title="BOSH Relay"></input>
+				<input type="button" id="customServerReset"></input>
+				<input type="button" id="customServerSubmit"></input>
+			</div>
+			<form id="userInput">
+				<textarea id="userInputText"></textarea>
+				<input type="submit" value="►" id="userInputSend"></input>
+			</form>
+		</div>
+		<div id="conversationWrapper">
+			<div id="conversationWindow">
+			</div>
+		</div>
+		<div id="buddyWrapper">
+			<div id="buddyList">
+				<span id="currentConversation"></span>
+				<span id="buddiesOnline"></span>
+				<div class="buddy" id="buddy-main-Conversation" style="display:block">
+					<span id="conversationTag"></span>
+				</div>
+				<span id="buddiesAway"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

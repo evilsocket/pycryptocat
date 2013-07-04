@@ -1,0 +1,53 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Elkarrizketa pribatuak edonorentzat.
+Ongi etorri Crytocat-era. Hona hemen aholku erabilgarri batzuk:<ul><li>Cryptocat ez da konponbide perfektua. Ez ezazu inoiz jarri zure bizitza software baten esku.</li><li class="key">Cryptocat-ek ezin zaitu babestu pertsona ez fidagarri edo key logger-en aurka eta ez du zure konexioa anonimo bihurtzen</li></ul>
+Bloga
+Zerbitzari pertsonalizatua
+Berrezarri
+elkarrizketa-izena
+goitizena
+konektatu
+Sar ezazu izen bat elkarrizketarako eta parteka ezazu berau hitz egin nahiko zenukeen jendearekin
+Sartu elkarrizketa baten izena bertara sartzeko. 
+Sartu elkarrizketa-izena.
+Elkarrizketa-izena letraz eta zenbakiz bakarrik egon daiteke osatuta.
+Sartu goitizena.
+Goitizena letraz eta zenbakiz bakarrik egon daiteke osatuta.
+Erabiltzen ari den goitizena.
+Ezin izan da saioa hasi.
+Konexioak huts egin du.
+Eskerrik asko Cryptocat erabiltzeagatik.
+Erregistratzen...
+Konektatzen...
+Konektatuta.
+Segundu batzuetan, tekleatu ahalik eta era ausazkoenean.
+Zifraketa-kodeak sortzen...
+Talde-elkarrizketa. Egin klik erabiltzaile baten gainean elkarrizketa pribatua izateko.
+OTR hatz-aztarna (elkarrizketa pribatuetarako)
+Talde elkarrizketaren hatz-aztarna:
+Berrezarri nire zifraketa-kodeak..
+Zifraketa-kodeak berrezartzeak deskonektatu egingo zaitu. Zure hatz-aztarnak ere aldatuko dira.
+Jarraitu
+Egoera: eskuragarri
+Egoera: kanpoan
+Nire Informazioa
+Mahaigaineko jakinarazpenak gaituta
+Mahaigaineko jakinarazpenak desgaituta
+Soinu jakinarazpenak gaituta
+Soinu jakinarazpenak desgaituta
+Nire goititzena gogoratu
+Ez gogoratu nire goitizena
+Saioa itxi
+Erakutsi informazioa
+Bidali fitxategi zifratua
+ikusi irudia
+deskargatu fitxategia
+Elkarrizketa
+ZIP fitxategiak eta irudiak bakarrik onartzen dira. Fitxategi-tamaina maximoa:  (SIZE) MB.
+Errorea: Egiazta ezazu fitxategia ZIP motakoa edo irudia dela.
+Errorea: Fitxategia ezin da izan (SIZE) MB baino handiagoa.
+Hasi bideo-elkarrizketa
+Amaitu bideo-elkarrizketa
+(NICKNAME)-(e)k zurekin bideo-elkarrizketa bat abiatu nahi du.
+Utzi

@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Conversazioni Private per Tutti.
+Benvenuto su Cryptocat. Ecco alcuni consigli:<ul><li> Cryptocat non è una cosa magica. Non affidare mai la tua vita ad un software.</li><li class="key"> Cryptocat non in grado di proteggerti contro le persone inaffidabili, keyloggers e non ti offre l'anonimato durante la navigazione. </li></ ul>
+Blog
+Server di tua scelta
+Cancella tutto
+nome della conversazione
+nickname
+connetti
+Inserisci un nome per la tua conversazione e condividilo con le persone con cui vuoi comunicare o entra su <strong>lobby</strong> per scoprire nuove persone.
+Inserisci il nome di una conversazione a cui partecipare
+Inserisci un nome per la conversazione.
+Il nome della conversazione deve essere alfanumerico
+Inserisci un nickname.
+Il nickname deve essere alfanumerico
+Nickname già utilizzato
+Autenticazione non riuscita.
+Connessione non riuscita.
+Grazie per aver scelto Cryptocat.
+Registrazione in corso...
+Connessione in corso...
+Connesso.
+Per favore digita sulla tua tastiera nel modo più casuale possibile per alcuni secondi.
+Generazione in corso delle chiavi di cifratura...
+Conversazione di gruppo. Clicca su un utente per iniziare una chat privata.
+Fingerprint OTR (per conversazioni private):
+Fingerprint della conversazione di gruppo:
+Rigenera le mie chiavi di cifratura
+La rigenerazione delle tue chiavi di cifratura ti faranno disconnettere. Inoltre anche le tue fingerprint cambieranno.
+Continua
+Stato: Disponibile
+Stato: Non al computer
+Mie Info
+Notifiche Desktop Attivate
+Notifiche Desktop Disattivate
+Notifiche Audio Attivate
+Notifiche Audio Disattivate
+Ricorda il mio nickname
+Non ricordare il mio nickname
+Disconnettiti
+Mostra Info
+Invia un file criptato
+vedi immagine
+scarica file
+Conversazione
+Si accettano solo file ZIP e immagini. Dimensione massima accettabile: (SIZE) MB.
+Errore : per favore assicurati che il fila sia ZIP o un'immagine.
+Errore : Il file non può essere più grande di (SIZE) MB.
+Inizia una videoconferenza
+Termina la videoconferenza
+(NICKNAME) vuole iniziare una videoconferenza con te.
+Annulla
+Blocca
+Sblocca

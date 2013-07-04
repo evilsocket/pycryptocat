@@ -1,0 +1,55 @@
+ltr
+"Helvetica Neue", Helvetica, Arial, Verdana
+Privégesprekken voor iedereen.
+Welkom bij Cryptocat. Hier zijn wat tips: <ul><li>Cryptocat biedt geen magische oplossing. Je moet software nooit jouw leven toevertrouwen.</li><li class="key">Cryptocat kan je niet beschermen tegen onbetrouwbare personen en key loggers, en anonimiseert je verbinding niet.</li></ul>
+Blog
+Andere server
+Reset
+naam conversatie
+roepnaam
+verbinden
+Geef je gesprek een naam en deel die met mensen waarmee je wil praten, of vervoeg de  <strong>lobby</strong> om nieuwe mensen te ontmoeten!
+Geef de naam op van het gesprek waar je aan wil deelnemen.
+Voer alstublieft een gespreksnaam in.
+Gespreksnaam mag enkel uit cijfers en/of letters bestaan.
+Geef een roepnaam op.
+Roepnaam mag enkel uit cijfers en/of letters bestaan.
+Roepnaam is reeds in gebruik.
+Authenticatie mislukt.
+Verbinding mislukt.
+Bedankt voor het gebruik van Cryptocat.
+Bezig met registratie...
+Initiatie verbinding...
+Verbonden.
+Sla gedurende enkele seconden lukraak toetsen op uw klavier aan.
+Bezig met aanmaak van encryptiesleutels...
+Groepsgesprek. Klik op een gebruiker voor een privégesprek.
+OTR vingerafdruk (voor privégesprekken):
+Vingerafdruk groepsconversatie:
+Reset mijn encryptiesleutels
+Het resetten van uw encryptiesleutels verbreekt de verbinding. Uw digitale vingerafdruk verandert eveneens.
+Doorgaan
+Status: Beschikbaar
+Status: Afwezig
+Mijn gegevens
+Meldingen Bureaublad Aan
+Meldingen Bureaublad Uit.
+Geluidsmeldingen Aan
+Geluidsmeldingen Uit
+Mijn roepnaam onthouden
+Mijn roepnaam niet onthouden
+Afmelden
+Toon Info
+Verstuur versleuteld bestand
+afbeelding bekijken
+bestand downloaden
+Gesprek
+Enkel ZIP-bestanden en afbeeldingen worden aanvaard. Maximale bestandgrootte: (SIZE) MB.
+Fout: Vergewis je ervan dat je bestand een ZIP-bestand of afbeelding is.
+Fout: Bestand mag niet groter zijn dan (SIZE) MB.
+Begin beeldgesprek
+Beëindig beeldgesprek
+(NICKNAME) wil een beeldgesprek met je beginnen.
+Annuleren
+Blokkeren
+Deblokkeren
